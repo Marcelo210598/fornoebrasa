@@ -1,7 +1,12 @@
 # 🔥 Forno & Brasa — Cardápio Digital
 
+**No ar:** https://fornoebrasa.vercel.app
+
 Cardápio digital de uma pizzaria/hamburgeria artesanal **fictícia**, feito como
 peça de portfólio para demonstrar esse tipo de projeto.
+
+> 🧩 **Vai usar como base pra um cliente real?** Leia o [`TEMPLATE.md`](./TEMPLATE.md) —
+> passo a passo pra clonar + checklist do que trocar.
 
 > ⚠️ Estabelecimento, endereço, telefone e preços são todos fictícios.
 > Nenhum pedido real é enviado — o botão de finalizar apenas monta uma mensagem

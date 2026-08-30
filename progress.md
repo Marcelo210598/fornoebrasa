@@ -23,9 +23,13 @@
 - Componente FoodImage com fallback de marca (emoji + gradiente) quando a foto cai
 - Footer com dados fictícios + crédito
 - README, .env.example, histórico
+- Repo no GitHub + deploy Vercel (`fornoebrasa.vercel.app`)
+- Teste de responsividade mobile
+- URL bonita via `vercel.json` alias
+- `TEMPLATE.md` — guia pra clonar como base de cliente real
 
 ## 🚧 Em progresso
-- Nada — aguardando feedback do Marcelo
+- Nada — projeto entregue. Fica como base pronta pra próximos clientes.
 
 ## ⚠️ Problemas encontrados
 - `create-next-app` falhou por permissão no cache do npm (`~/.npm/_cacache`).
@@ -38,14 +42,17 @@
   `agentRules: false` no `next.config.ts`.
 
 ## 📋 Próximos passos
-- Feedback do Marcelo sobre nome, itens e visual
-- (opcional) Deploy na Vercel via CLI
-- (opcional) Painel admin / backend de pedidos
+- Sob demanda: aparecendo cliente real, clonar como base (ver `TEMPLATE.md`)
+- (upsell) Painel admin pra o cliente editar itens sozinho
+- (upsell) Backend de pedidos (Neon) + status
+- (upsell) Variações de item: tamanho, meia-a-meia, adicionais
 
 ## 🔧 Configurações importantes
 - `next.config.ts`: `turbopack.root` fixado + `agentRules: false`
+- `vercel.json`: `"alias": ["fornoebrasa.vercel.app"]` (auto a cada `vercel deploy --prod`)
 - Sem variáveis de ambiente obrigatórias (ver `.env.example` para o futuro)
 - Número de WhatsApp fictício em `src/lib/restaurant.ts`
+- Deploy: `vercel deploy --prod --yes --scope marcelo-di-foggia-juniors-projects`
 
 ## 📚 Dependências principais
 - next 16.3.3
