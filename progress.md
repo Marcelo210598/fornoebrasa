@@ -5,7 +5,8 @@
 ## 📌 Visão Geral
 - **Objetivo:** peça de portfólio — cardápio digital de pizzaria/hamburgeria fictícia
 - **Stack:** Next.js 16 (App Router), React 19, TypeScript, Tailwind CSS v4
-- **Status:** MVP visual completo e funcional em `localhost:3000`, build de produção passando
+- **Status:** MVP no ar → https://cardapio-digital-five-cyan.vercel.app (deploy Vercel via CLI)
+- **Repo:** https://github.com/Marcelo210598/fornoebrasa
 
 ## ✅ Concluído
 - Scaffold Next.js 16 + Tailwind v4 + TS
